@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.gallery {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.col{
+    padding: 0;
+    margin:0;
+    
+    display: flex;
+    flex-direction: column;
+    /* change % based on num of desired columns */
+    width: 24.75%;
+
+
+}
+
+
+img{
+    background-color: green;
+
+    margin: 0  0  1.25% 0;
+    position: relative;
+
+
+
+    
+
+}
+
+img:hover{
+}
